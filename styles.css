@@ -1,0 +1,128 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    background-color: #36384c;
+    color: cornsilk;
+    font-family: "Lato", sans-serif;
+
+}
+header{
+    display: flex;
+        justify-content: space-between;
+        align-items: center;
+}
+.logo img{
+        width: 100px;
+        border-radius: 50px;
+        display: inline-block;
+        font-size: 22px;
+        margin-top: 10px;
+        margin-left: 40px;
+    }
+ul{
+    list-style: none;
+    display: flex;
+        margin-right: 30px;
+        flex-direction: row;
+        justify-content: flex-end;
+}
+ul li{
+    margin: 0;
+}
+ul li a{
+    color: white;
+    text-decoration: none;
+    margin-left: 30px;
+    font-size:20px;
+    font-weight: bold;
+}
+ul li a:hover{
+          color: chartreuse;
+}
+.header_image{
+    position: relative;
+    text-align: center;
+  color: white;
+}
+.image_img{
+    margin-top: 12px;
+    width: 100%;
+    height: auto;
+    opacity: 0.6;
+}
+.image_overlay{
+    position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 1.875rem;
+  color:white;
+  font-family: "Lato", sans-serif;
+}
+@media screen and (max-width: 600px) {
+    div.image_overlay{
+      font-size:10px;
+    }
+  }
+.about{
+    background-color:#e9dccd;
+    color: black;
+    margin:0;
+    padding: 15px;
+    align-items: center;
+}
+.about h2{
+    margin: 50px;
+    font-size: 3em;
+
+}
+.about p{
+    margin: 10px 200px;
+    text-align:left;
+    font-size:20px;
+    line-height: 30px;
+}
+@media screen and (max-width: 600px) {
+    .about h2{
+      font-size:30px;
+    }
+  }
+  @media screen and (max-width: 600px) {
+    .about p{
+      font-size:15px;
+      line-height: 20px;
+      margin: 50px;
+    }
+  }
+  .about_img img{
+    padding: 20px;
+  }
+  footer{
+    padding: 20px 0;
+    display: block;
+  }
+    footer h2{
+        font-size: 3em;
+        margin-left: 30px;
+    }
+    footer img{
+        margin-left: 300px;
+        margin-top:10px;
+    }
+    @media screen and (max-width: 600px) {
+        footer img{
+          margin:10px;
+          width: 100%;
+        }
+      }
+      footer h4 {
+          text-align: center;
+          font-size: 30px;
+          font-family: Arial, Helvetica, sans-serif;
+          letter-spacing: 3px;
+      } 
+      footer p {
+        text-align: center;
+        font-size: 20px;
+      }
